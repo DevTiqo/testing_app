@@ -1,6 +1,7 @@
 # testing_app
 
-A new Flutter project.
+Run Unit Tests, Widget Tests and Integration Tests on Flutter. 
+
 
 ## Getting Started
 
