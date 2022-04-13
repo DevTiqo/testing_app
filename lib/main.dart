@@ -3,8 +3,10 @@ import 'package:provider/provider.dart';
 import 'package:testing_app/models/favourites.dart';
 import 'package:testing_app/screens/favourites.dart';
 import 'package:testing_app/screens/home.dart';
+import "package:flutter_driver/driver_extension.dart";
 
 void main() {
+  enableFlutterDriverExtension();
   runApp(TestingApp());
 }
 
