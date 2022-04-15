@@ -16,7 +16,7 @@ class TestingApp extends StatelessWidget {
     return ChangeNotifierProvider<Favorites>(
       create: (context) => Favorites(),
       child: MaterialApp(
-        title: 'Testing Sample',
+        title: 'Running Flutter Tests',
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,

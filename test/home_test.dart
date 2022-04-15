@@ -19,7 +19,7 @@ void main() {
       expect(find.byType(ListView), findsOneWidget);
     });
     // END OF NEW CONTENT
-    testWidgets('Testing Scrolling', (tester) async {
+    testWidgets('Testing Scroll in home page', (tester) async {
       await tester.pumpWidget(createHomeScreen());
       expect(find.text('Item 0'), findsOneWidget);
       await tester.fling(find.byType(ListView), Offset(0, -200), 3000);
