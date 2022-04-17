@@ -24,7 +24,7 @@ void addItems() {
 
 void main() {
   group('Favorites Page Widget Tests', () {
-    testWidgets('Test if ListView shows up', (tester) async {
+    testWidgets('Test if ListView reponsiveness', (tester) async {
       await tester.pumpWidget(createFavoritesScreen());
       addItems();
       await tester.pumpAndSettle();
