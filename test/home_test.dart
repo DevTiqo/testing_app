@@ -13,7 +13,7 @@ Widget createHomeScreen() => ChangeNotifierProvider<Favorites>(
 
 void main() {
   group('Home Page Widget Tests', () {
-// BEGINNING OF NEW CONTENT
+// BEGINNING OF NEW CONTENT TO CHANGE
     testWidgets('Testing if ListView responsiveness', (tester) async {
       await tester.pumpWidget(createHomeScreen());
       expect(find.byType(ListView), findsOneWidget);

@@ -22,6 +22,12 @@ void addItems() {
   }
 }
 
+void removeItems() {
+  for (var i = 0; i < 10; i += 2) {
+    favoritesList.remove(i);
+  }
+}
+
 void main() {
   group('Favorites Page Widget Tests', () {
     testWidgets('Test if ListView reponsiveness', (tester) async {
