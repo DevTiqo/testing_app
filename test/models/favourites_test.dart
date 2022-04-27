@@ -6,7 +6,7 @@ void main() {
     var favorites = Favorites();
 
     test('An item should be removed', () {
-      var number = 45;
+      var number = 5;
       favorites.add(number);
       expect(favorites.items.contains(number), true);
       favorites.remove(number);
