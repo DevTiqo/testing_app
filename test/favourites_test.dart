@@ -30,7 +30,7 @@ void removeItems() {
 
 void main() {
   group('Favorites Page Widget Tests', () {
-    testWidgets('Test if ListView reponsiveness', (tester) async {
+    testWidgets('Test for ListView reponsiveness', (tester) async {
       await tester.pumpWidget(createFavoritesScreen());
       addItems();
       await tester.pumpAndSettle();
